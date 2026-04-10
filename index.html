@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css">
+  <title>Number Guessing Game</title>
 </head>
 <body>
-    <div class="border">
-    <h1>Guessing Game 🤔🎲</h1>
-    <input placeholder="guess" id="text" type="number" min="0" max="100">
-    <button class="btn">🎲 </button>
-    
-   <div class="refresh">
-     <button id="btn">⟳</button></div>
+  <div class="game-box">
+    <h1>Number Guessing Game 🎲</h1>
+    <p class="instructions">Guess a number between 1 and 100 </p>
+
+    <div class="controls">
+      <input type="number" id="guessInput" placeholder="Enter your guess" min="1" max="100" />
+      <button id="submitBtn">🎲</button>
     </div>
-    <div class="p1"><p></p></div>
-    <div class="p2"><p></p></div>
-    <script src="index.js"></script>
+
+    <p id="message">Start guessing...</p>
+    <p id="attempts"> <strong>Attempts: 0</strong></p>
+
+    <div class="history-box">
+      <h3>Guess History</h3>
+      <ul id="history"></ul>
+    </div>
+
+    <button id="playAgainBtn" class="hidden">Play Again</button>
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>
