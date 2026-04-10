@@ -1,0 +1,43 @@
+html {
+    background-color: rgb(238, 197, 63);
+}
+.border{
+    border: 10px solid purple;
+    padding:  10px auto;
+    margin: 150px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(129, 253, 226);
+    padding-bottom: 200px;
+    border-radius: 20px;
+    
+
+}
+.btn{
+    background-color: green;
+    border-radius: 30px;
+    font-size: 30px;
+    margin: 30px ;
+   
+
+    
+}
+#btn{
+    background-color: aqua;
+    font-size: 25px;
+    border-radius:20px;
+    
+   
+    
+}
+h1 {
+    font-size: 42;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+#text{
+    font-size: 30px;
+    text-shadow: black 20px;
+    color:red;
+
+}
